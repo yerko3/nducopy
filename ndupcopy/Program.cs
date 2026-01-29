@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace ndupcopy
 {
@@ -6,9 +7,12 @@ namespace ndupcopy
     {
         static void Main(string[] args)
         {
+            
             string sourceDirectory1 = args[0];
             string sourceDirectory2 = args[1];
             string destinationDirectory = args[2];
+
+
 
             FileReader fileReader = new FileReader();
             fileReader.AddSourceDirectory(sourceDirectory1);
