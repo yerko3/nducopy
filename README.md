@@ -23,7 +23,7 @@ Si deseas analizar otras carpetas de tu ordenador en lugar de las carpetas de pr
 3. Localiza el campo **Argumentos de la línea de comandos** (Command line arguments).
 4. Cambia las rutas relativas actuales por las rutas de las carpetas que deseas escanear y la de destino. 
 
-> 💡 *Ejemplo de la configuración por defecto en Visual Studio:*
+> 💡 *Ejemplo de la configuración por defecto en Visual Studio 2022:*
 > `..\\..\\..\\Prueba1 ..\\..\\..\\Prueba2 ..\\..\\..\\PruebaDestino`
 
 ---
